@@ -2,77 +2,57 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-<div class="container">
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Title</a>
-			</div>
-	
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-				</ul>
-				<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Link</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li><a href="#">Separated link</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Title</a>
 		</div>
-	</nav>
-</div>
-	
-<ul class="pagination">
-	<li><a href="#">&laquo;</a></li>
-	<li><a href="#">1</a></li>
-	<li><a href="#">2</a></li>
-	<li><a href="#">3</a></li>
-	<li><a href="#">4</a></li>
-	<li><a href="#">5</a></li>
-	<li><a href="#">&raquo;</a></li>
-</ul>
-	<a href="#">fdf</a>
 
-	<div class="alert alert-info">
-		<strong>Title!</strong> Alert body ...
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
 	</div>
+</nav>
 
-<ol class="breadcrumb">
-	<li>
-		<a href="#">Home</a>
-	</li>
-	<li>
-		<a href="#">Link</a>
-	</li>
-	<li class="active">Current</li>
-</ol>
+<!-- CAROUSEL -->
 <div id="carousel-id" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
 		<li data-target="#carousel-id" data-slide-to="0" class=""></li>
@@ -111,12 +91,183 @@
 			</div>
 		</div>
 	</div>
-	<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-	<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+<br>
+
+<!-- FEATURES -->
+<div class="feature">
+	<div class="feature-logo">
+		<i class="feature-ico">LOGO</i>
+	</div>
+<div class="feature-title">Clean Theme</div>
+<div class="feature-text">Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. Duis porta gravida augue sed viverra. Quisque at nulla leo, non aliquet mi. </div>
+<a href="#" class="feature-link">
+	<span class="caret"></span>
+	  Read More
+</a>
+</div>
+
+<br>
+
+<!-- TITLE -->
+<div class="title">
+	<i class="title-ico">ICO</i>
+	<p class="title-text">latest works</p>
+</div>
+
+<div class="testimonials">
+	<blockquote class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut nulla sapien, at aliquam erat. Sed vitae massa tellus. Aliquam commodo aliquam metus, sed iaculis nibh tempus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam nec nisi in nisl euismod fringilla.
+</blockquote>
+	<cite class="testimonials-author">John Travis, CEO, DomainName.com</cite>
+</div>
+
+<!-- CLIENTS -->
+<div class="clients">
+	<ul class="clients-list">
+		<li class="clients-item">
+			<a href="#" class="clients-link">
+				<img src="" alt="" class="client-img">
+			</a>
+		</li>
+		<li class="clients-item">
+			<a href="#" class="clients-link">
+				<img src="" alt="" class="client-img">
+			</a>
+		</li>
+		<li class="clients-item">
+			<a href="#" class="clients-link">
+				<img src="" alt="" class="client-img">
+			</a>
+		</li>
+		<li class="clients-item">
+			<a href="#" class="clients-link">
+				<img src="" alt="" class="client-img">
+			</a>
+		</li>
+		<li class="clients-item">
+			<a href="#" class="clients-link">
+				<img src="" alt="" class="client-img">
+			</a>
+		</li>
+		<li class="clients-item">
+			<a href="#" class="clients-link">
+				<img src="" alt="" class="client-img">
+			</a>
+		</li>
+	</ul>
+</div>
+
+<br>
+
+<!-- ALERT -->
+<div class="alert">
+	<p class="alert-text">This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template! </p>
+	<button type="button" class="alert-btn">
+		<i class="alert-ico"></i>
+		Download psd
+	</button>
+</div>
+
+<br>
+
+<!-- FOOTER -->
+<div class="footer">
+	<div class="footer-top">
+		<div class="footer-content">
+			<div class="footer-title">About us</div>
+			<p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. </p>
+		</div>
+		<div class="footer-title">Explore</div>
+		<ul class="footer-list">
+			<li class="footer-item"><a href="#" class="footer-link">Home</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">About Us</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Services</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Portfolio</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Blog</a></li>
+		</ul>
+		<div class="footer-title">Browse</div>
+		<ul class="footer-list">
+			<li class="footer-item"><a href="#" class="footer-link">Careers</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Press &amp; Media</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Contact Us</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Terms of Service</a></li>
+			<li class="footer-item"><a href="#" class="footer-link">Privacy Policy</a></li>
+		</ul>
+		<div class="footer-title">contact us</div>
+		<address class="footer-address">
+			BisLite Inc. <br>
+			Always Street 265<br>
+			0X - 125 - Canada<br>
+
+			Phone: 987-6543-210<br>
+			Fax: 987-6543-210<br>
+		</address>
+		<div class="footer-title">connect with us</div>
+		<ul class="social-list">
+			<li class="social-item"><a href="#" class="social-link">link</a></li>
+			<li class="social-item"><a href="#" class="social-link">link</a></li>
+			<li class="social-item"><a href="#" class="social-link">link</a></li>
+			<li class="social-item"><a href="#" class="social-link">link</a></li>
+			<li class="social-item"><a href="#" class="social-link">link</a></li>
+			<li class="social-item"><a href="#" class="social-link">link</a></li>
+		</ul>
+	</div>
+	<div class="footer-bottom">
+		<div class="footer-copyright">© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com. 
+Client Logos are copyright and trademark of the respective owners / companies. </div>
+		<a href="#" class="footer-logo">LOGO</a>
+	</div>
+</div>
+
+<br>
+
+<!-- ITEM -->
+<div class="item">
+	<img src="" alt="" class="item-img">
+	<i class="item-ico"></i>
+	<i class="item-ico"></i>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+	<p class="content-text"></p>
+	<a href="mailto:email@bislite.com?subject=Feedback&body=Message" class="content-email"> email@bislite.com</a>
+</div>
+
+<br>
+
+<!-- FORM -->
+<form action="#" method="POST" role="form">
+	<div class="form-group">
+		<label for="">Name</label>
+		<input type="text" class="form-control" id="" placeholder="Name">
+	</div>
+	<div class="form-group">
+		<label for="">Email Address</label>
+		<input type="text" class="form-control" id="" placeholder="Email Address">
+	</div>
+	<div class="form-group">
+		<label for="">Subject</label>
+		<input type="text" class="form-control" id="" placeholder="Subject">
+	</div>
+	<div class="form-group">
+		<label for="">Description</label>
+		<textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+	</div>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br>
+
+<!-- MAP -->
+<div class="alert">
+	<div class="alert-title"></div>
+	<div class="alert-map"></div>
 </div>
 
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="js/assets.js"></script>
-    <script src="js/main.js"></script>
+	<script src="js/assets.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
