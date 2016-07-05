@@ -5,8 +5,10 @@
  */
 
 // Core variables and mixins
+@import "_variables.scss";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "mixins/mixins";
 
 // Reset and dependencies
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
