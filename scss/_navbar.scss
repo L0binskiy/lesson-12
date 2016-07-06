@@ -1,0 +1,59 @@
+.navbar{
+	padding: 40px 0px;
+	border-radius: 0px;
+	&-brand{
+		font-family: Lato;
+		font-size: 50px;
+		& span{
+			color: $brand-primary;
+		}
+	}
+	&-nav{
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 13px;
+	}
+	&-item{
+		margin-right: 26px;
+		&:last-child{
+			margin: 0px;
+		}
+	}
+	&-link{
+		border-top: 5px solid transparent;
+	}
+	&-link:hover{
+		border-top: 5px solid $brand-primary;
+	}
+	&-link:focus{
+		border-top: 5px solid $brand-primary;
+	}
+}
+
+
+
+.dropdown{
+	border-top: 5px solid transparent;
+	&:hover{
+		border-top: 5px solid $brand-primary;
+	}
+	&:focus{
+		border-top: 5px solid $brand-primary;
+	}
+	&-menu{
+		border-bottom: 5px solid $brand-primary;
+		padding: 10px 5px;
+		border-radius: 0px;
+		box-shadow: none;
+	}
+	&-item{
+		text-transform: capitalize;
+		border-bottom: 1px solid #e7e7e7;
+		&:last-child{
+			border-bottom: none;
+		}
+	}
+	&-link{
+		padding: 10px 25px 10px 12px !important; // Вот тут не получилось перебить паддинги, паддинги, которые используются, находятся в _dropdowns. Перебил только через импортант, и я догадываюсь почему, потому что в dropdowns.scss записана такая конструкция .dropdown-menu > li > a у неё явно больше веса.
+	}
+}
